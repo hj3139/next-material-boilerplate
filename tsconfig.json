@@ -15,10 +15,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "baseUrl": "src",
-    "rootDir": "src",
+    "rootDir": ".",
     "noEmit": true,
     "jsx": "preserve",
+    "types": ["cypress"]
   },
-  "include": ["src", "next-env.d.ts"],
-  "exclude": ["node_modules", ".next"]
+  "include": ["src", "next-env.d.ts"], 
+  "exclude": ["node_modules", ".next", "src/**/*.spec.ts"]
 }

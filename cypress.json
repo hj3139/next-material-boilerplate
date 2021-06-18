@@ -2,5 +2,8 @@
   "viewportWidth": 1920,
   "viewportHeight": 1100,
   "baseUrl": "http://localhost:3000",
-  "video": false
+  "video": false,
+  "integrationFolder": "src",
+  "componentFolder": "src",
+  "testFiles": "./**/*.spec.{ts,tsx,js,jsx}"
 }
